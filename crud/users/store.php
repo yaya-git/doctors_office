@@ -17,8 +17,7 @@ try{
     
     $oUser->store();
     
-//    header("Location: ../../index.php");
-    
+    header("Location: ../../index.php");
     
 }  catch (Exception $e){
     return $e->getMessage();

@@ -26,9 +26,9 @@
             <nav class="blog-nav">
                 <a href="../../index.php" class="blog-nav-item">Lista de usuarios</a>
 
-                <a href="create.php" class="blog-nav-item active">Crear usuario</a>
+                <a href="index.php" class="blog-nav-item active">Crear usuario</a>
 
-                <a href="../views/create.php" class="blog-nav-item">Nueva visita</a>
+                <a href="../views/index.php" class="blog-nav-item">Nueva visita</a>
 
                 <a href="../services/report.php" class="blog-nav-item">Reporte de servicios</a>
 
@@ -45,39 +45,40 @@
       <div class="container">
           <h2 class="blog-post-title">Crear Usuario</h2>
           
-        <form action="../../crud/users/store.php" method="POST" class="form-horizontal">
-          <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Nombre</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputPassword3" name="name">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Apellidos</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputPassword3" name="last_name">
-            </div>
-          </div>    
+          
+    <form action="../../crud/users/store.php" method="POST" class="form-horizontal">
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Nombre</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword3" name="name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Apellidos</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword3" name="last_name">
+        </div>
+      </div>    
 
-          <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Correo electronico</label>
-            <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Role</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputPassword3" name="role">
-            </div>
-          </div>    
-          <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default">Guardar</button>
-            </div>
-          </div>
-        </form>          
-    </div>      
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">Correo electronico</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Role</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword3" name="role">
+        </div>
+      </div>    
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">Guardar</button>
+        </div>
+      </div>
+    </form>          
+</div>
       
       
   </body>  
